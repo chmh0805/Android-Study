@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="80dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="180dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="220dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="311dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:srcCompat="@drawable/instagram_logo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="341dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_rounded_button"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="No account yet? Create one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        android:gravity="center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
