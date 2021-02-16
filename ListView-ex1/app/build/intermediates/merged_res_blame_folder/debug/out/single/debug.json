@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_footer_home.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_footer_home.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_footer_search.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_footer_search.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_rounded_button.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\white_rounded_button.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_reply_btn.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_reply_btn.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dot.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_dot.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save_btn.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_save_btn.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_face2.jpg.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\face2.jpg"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_instagram_logo.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable-v24\\instagram_logo.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_post1.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable-v24\\post1.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_header_tv.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_header_tv.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_face1.jpg.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\face1.jpg"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more_vert.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_more_vert.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_footer_person.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_footer_person.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_footer_add.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_footer_add.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_person1.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\person1.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_header_dm.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_header_dm.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_face3.jpg.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\face3.jpg"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite.xml.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "D:\\workspace\\androidwork\\app\\build\\intermediates\\res\\merged\\debug\\drawable_instagram_header_logo.png.flat",
+        "source": "D:\\workspace\\androidwork\\app\\src\\main\\res\\drawable\\instagram_header_logo.png"
+    }
+]
