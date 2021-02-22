@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/my_toolbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/profile1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_posts_num"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="48dp"
+            android:gravity="bottom|center"
+            android:text="10"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tv_followers_num"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toTopOf="@+id/profile_image" />
+
+        <TextView
+            android:id="@+id/tv_posts_title"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            android:text="Posts"
+            app:layout_constraintStart_toStartOf="@+id/tv_posts_num"
+            app:layout_constraintTop_toBottomOf="@+id/tv_posts_num" />
+
+        <TextView
+            android:id="@+id/tv_followers_num"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:gravity="bottom|center"
+            android:text="50"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tv_following_num"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv_posts_num"
+            app:layout_constraintTop_toTopOf="@+id/tv_posts_num" />
+
+        <TextView
+            android:id="@+id/tv_followers_title"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            android:text="Followers"
+            app:layout_constraintStart_toStartOf="@+id/tv_followers_num"
+            app:layout_constraintTop_toBottomOf="@+id/tv_posts_num" />
+
+        <TextView
+            android:id="@+id/tv_following_num"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:gravity="bottom|center"
+            android:text="13"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tv_followers_num"
+            app:layout_constraintTop_toTopOf="@+id/tv_followers_num" />
+
+        <TextView
+            android:id="@+id/tv_following_title"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            android:text="Following"
+            app:layout_constraintStart_toStartOf="@+id/tv_following_num"
+            app:layout_constraintTop_toBottomOf="@+id/tv_followers_num" />
+
+        <TextView
+            android:id="@+id/tv_user_info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="User Real Name"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="105dp" />
+
+        <TextView
+            android:id="@+id/tv_user_info_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio from User. So Say something."
+            app:layout_constraintStart_toStartOf="@+id/tv_user_info_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user_info_name" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/my_button"
+            android:text="Edit Profile"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user_info_bio" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"/>
+
+</LinearLayout>
