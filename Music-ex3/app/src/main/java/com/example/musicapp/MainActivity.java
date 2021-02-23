@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             mediaPlayer = musicService.getMediaPlayer();
             seekBar.setMax(mediaPlayer.getDuration());
         }
-        
+
         @Override
         public void onServiceDisconnected(ComponentName name) {
             mediaPlayer.stop();
